@@ -1,7 +1,12 @@
 {
-  "mcpServers": {
-    "windsor": {
-      "httpUrl": "https://mcp.windsor.ai/"
-    }
+  "name": "windsor-mcp-server",
+  "version": "1.0.0",
+  "description": "Windsor.ai MCP Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
